@@ -1,0 +1,13 @@
+services:
+  broker:
+    image: eclipse-mosquitto:latest
+    ports: ["1883:1883", "9001:9001"]
+  
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: cube_admin
+      
+  mission_control:
+    build: ./dashboard
+    ports: ["8501:8501"]

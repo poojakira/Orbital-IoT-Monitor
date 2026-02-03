@@ -1,0 +1,7 @@
+streamlit
+numpy
+scikit-learn
+paho-mqtt
+plotly
+scipy
+psycopg2-binary
