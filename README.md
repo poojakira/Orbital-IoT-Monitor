@@ -73,5 +73,6 @@ Services: eclipse-mosquitto, postgres:latest.
 Flight data is persisted to the mission_logs Postgres table, recording timestamp, altitude, heat flux, and anomaly scores
 
 
-![Uploading Dashboard.gif…]()
+![Dashboard](https://github.com/user-attachments/assets/31d4fced-840b-4a10-8817-b493f7fad03e)
+
 
