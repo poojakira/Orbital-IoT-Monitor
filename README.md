@@ -13,7 +13,18 @@ The system integrates 3 core technologies:
 3. **Neural Anomaly Detection** using MLP Autoencoder with reconstruction error analysis
 
 ---
+## Project Background
 
+Astraeus-9 began as a hardware-centric experiment to explore how much operational insight a small satellite or testbed can gain from an ESP32-class sensing stack.  
+I consolidated those efforts into a cohesive project that:
+
+- Streams telemetry from an ESP32-based sensing kernel
+- Applies Kalman filtering and physics-based models for orbital and re-entry state estimation
+- Drives a containerized Streamlit dashboard with real-time visualizations and anomaly flags
+
+It serves as a bridge between embedded constraints and ML-driven orbital monitoring workflows.
+
+---
 ## 2. System Architecture
 
 | Module | Language | Role |
