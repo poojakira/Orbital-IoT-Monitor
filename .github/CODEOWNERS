@@ -1,0 +1,17 @@
+# CODEOWNERS for Astraeus-9-C-C
+
+# Default owner (fallback)
+*                       @poojakira
+
+# Python ML/simulation components
+/anomaly_ml.py          @poojakira
+/physics_engine.py      @poojakira
+/mission_simulator.py   @poojakira
+/main.py                @poojakira
+
+# ESP32 firmware kernel
+/Astraeus_Kernel.ino    @poojakira
+/Kalman_Filter.h        @poojakira
+
+# CI/CD workflows
+/.github/               @poojakira
