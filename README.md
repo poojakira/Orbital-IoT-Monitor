@@ -121,7 +121,7 @@ python mission_simulator.py
 | 3 | MQTT Telemetry Communications | Configured ESP32 telemetry transmission via MQTT protocol over WiFi to `astraeus/telemetry` topic | Real-time wireless telemetry pipeline from ESP32 hardware to cloud MQTT broker |
 | 4 | Physics-Based Re-Entry Simulator | Built `mission_simulator.py`: models orbital decay from 550 km LEO to impact; uses atmospheric drag to simulate increasing jitter with altitude; injects Cosmic Ray Bit-Flips and radiation damage anomalies | Simulates full LEO-to-impact re-entry trajectory; publishes telemetry to MQTT topic |
 | 5 | Thermodynamic & Physics Engines | Implemented `physics_engine.py` (atmospheric density + orbital torque) and `thermodynamics.py` (re-entry heat flux + skin temperature) | Quantifies thermal and mechanical loading during re-entry at each altitude step |
-| 6 | Repository Documentation & CODEOWNERS | Restructured README for engineering domain separation and established `CODEOWNERS.md` defining technical ownership | Clear GNC vs ML domain separation; CODEOWNERS.md governs code review assignments |
+| 6 | Repository Documentation & CODEOWNERS | Restructured README for engineering domain separation and established `CODEOWNERS` defining technical ownership | Clear GNC vs ML domain separation; CODEOWNERS.md governs code review assignments |
 
 ---
 
